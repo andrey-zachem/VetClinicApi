@@ -1,0 +1,17 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft.AspNetCore": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=vetclinic;Username=postgres;Password=YOUR_PASSWORD;Search Path=vet"
+  },
+  "Jwt": {
+    "Key": "YOUR_LONG_RANDOM_SECRET_AT_LEAST_32_CHARS",
+    "Issuer": "VetClinicApi",
+    "Audience": "VetClinicClient",
+    "ExpiresMinutes": 60
+  }
+}
